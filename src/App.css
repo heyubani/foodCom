@@ -1,38 +1,120 @@
-.App {
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.discription-body {
+  width: 400px;
+  position: relative;
+}
+.par {
+  font-size: 15px;
+  margin-top: -3px;
+}
+
+.text {
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  height: 4px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title_price {
   display: flex;
-  flex-direction: column;
+  width: 390px;
+  margin-top: -15px;
+  justify-content: space-between;
+}
+
+.card-body {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  width: 400px;
+  height: 570px;
+  margin: 10px;
+  padding: 0 8px 5px;
+  align-content: center;
+  background-color: white;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+
+img {
+  width: 400px;
+  height: 360px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+
+.btn_div {
+  display: flex;
+  height: 60px;
+  width: 408px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  position: absolute;
+  top: 169px;
+}
+
+.btn {
+  width: 90px;
+  height: 60px;
+  align-content: center;
+  text-align: center;
+  margin-top: 10px;
   color: white;
+  background: orange;
+  border-top-left-radius: 10px;
+}
+.fa-plus {
+  margin-top: 20px;
+}
+.star {
+  margin-left: 20px;
+}
+.btn:hover {
+  background: darkorange;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.btn_ {
+  height: 50px;
+  width: 150px;
+  border: none;
+  align-items: center;
+  border-radius: 20px;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background: rgb(247, 143, 15);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn_:hover {
+  background: orange;
+  cursor: pointer;
 }
