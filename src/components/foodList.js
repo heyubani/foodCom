@@ -17,7 +17,8 @@ class FoodList extends Component {
         })
       )
       .catch((err) => console.log(err));
-  }
+    }
+    
   render() {
     const { meals } = this.state;
     return (

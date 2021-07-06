@@ -18,7 +18,6 @@ body,
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   flex-direction: row;
 }
 
@@ -30,12 +29,15 @@ body,
   font-size: 15px;
   margin-top: -3px;
 }
-
 .text {
   font-size: 15px;
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: center;
+}
+.text-body {
+  width: 96%;
+  margin: auto;
 }
 h4 {
   font-size: 20px;
@@ -44,17 +46,17 @@ h4 {
 }
 .title_price {
   display: flex;
-  width: 390px;
-  margin-top: -15px;
+  width: 96%;
+  margin: auto;
+  text-align: center;
   justify-content: space-between;
 }
 
 .card-body {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
   width: 400px;
-  height: 570px;
+  height: 580px;
   margin: 10px;
-  padding: 0 8px 5px;
   align-content: center;
   background-color: white;
   border-top-right-radius: 35px;
@@ -69,13 +71,13 @@ img {
 }
 
 .btn_div {
+  top: 161px;
   display: flex;
   height: 60px;
-  width: 408px;
+  width: 400px;
   align-items: center;
   justify-content: space-between;
   position: absolute;
-  top: 169px;
 }
 
 .btn {
@@ -111,10 +113,10 @@ img {
   display: flex;
   justify-content: center;
   margin: auto;
-  background: rgb(247, 143, 15);
+  background: orange;
 }
 
 .btn_:hover {
-  background: orange;
+  background: darkorange;
   cursor: pointer;
 }
