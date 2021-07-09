@@ -14,7 +14,7 @@ body,
 
 .card {
   padding: 0;
-  width: 72%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -54,31 +54,27 @@ h4 {
 
 .card-body {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
-  width: 400px;
-  height: 62.1rem;
-  margin: 10px;
+  width: 32%;
+  margin: 10px 8px;
   align-content: center;
   background-color: white;
-  border-top-right-radius: 35px;
-  border-bottom-left-radius: 35px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 img {
   width: 100%;
-  max-width: 400px;
   height: auto;
-  border-top-right-radius: 35px;
-  border-bottom-left-radius: 35px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 .btn_div {
-  top: 161px;
   display: flex;
   height: 60px;
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
 }
 
 .btn {
@@ -86,7 +82,6 @@ img {
   height: 60px;
   align-content: center;
   text-align: center;
-  margin-top: 10px;
   color: white;
   background: orange;
   border-top-left-radius: 10px;
