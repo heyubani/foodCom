@@ -22,6 +22,7 @@ class FoodList extends Component {
   render() {
     const { meals } = this.state;
     return (
+      <>
       <div className="card">
         {meals.map((item) => {
           return (
@@ -49,6 +50,8 @@ class FoodList extends Component {
           );
         })}
       </div>
+        <button href="$" className="btn_">learn more</button>
+      </>
     );
   }
 }
